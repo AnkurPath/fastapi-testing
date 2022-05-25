@@ -1,0 +1,20 @@
+
+
+
+from fastapi import FastAPI
+
+
+   
+app = FastAPI()
+
+
+
+
+
+
+
+@app.get("/home")
+def write_home():
+    return {"message":"this is testing page"}
+
+   
